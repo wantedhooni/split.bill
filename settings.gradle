@@ -1,0 +1,8 @@
+rootProject.name = 'split_bill'
+
+include(
+        ':core',
+        ':domain',
+        ':redis',
+        ':api-server',
+)
